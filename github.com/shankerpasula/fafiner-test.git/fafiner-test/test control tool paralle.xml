@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ControlToolParallel" parallel="tests" preserve-order="true" thread-count="5">
+   <!--  <listeners>
+    <listener class-name="utilities.TestRunListener" />
+    </listeners> -->
+    <parameter name="browser" value="grid" />
+    <parameter name="baseUrl" value="http://localhost:8000/blu" />
+    <parameter name="nodeUrl" value="http://localhost:5555/wd/hub" />
+    <parameter name="test-scenario"  value="static"/>
+    <suite-files>
+        <suite-file path="test_base_parallel.xml" />
+    </suite-files>
+</suite>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- NOTE: you do not run tests using this file: the purpose this this file is to hold all the test which will be used by all other xml files. -->
+<suite name="base" parallel ="tests" preserve-order="true">
+    <test name="dashboard_paging"><groups><run><include name="dashboard_paging"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="grant_user_access"><groups><run><include name="grant_user_access"/></run></groups><packages><package name="reg_tests.*"/></packages></test>     
+    <test name="ltm_view"><groups><run><include name="ltm_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>  
+    <test name="ltm_superuser3"><groups><run><include name="ltm_superuser3"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="ltm_superuser"><groups><run><include name="ltm_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_activity_task_admin"><groups><run><include name="atm_activity_task_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_activity_superuser"><groups><run><include name="atm_activity_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="InactiveCurrency_Test"><groups><run><include name="InactiveCurrency_Test"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_ans_send"><groups><run><include name="sam_ans_send"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_activity_view"><groups><run><include name="atm_activity_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="ltm_superuser2"><groups><run><include name="ltm_superuser2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_superuser"><groups><run><include name="sam_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="admin"><groups><run><include name="admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>     
+    <test name="admin2"><groups><run><include name="admin2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>  
+    <test name="admin3"><groups><run><include name="admin3"/></run></groups><packages><package name="reg_tests.*"/></packages></test>  
+    <test name="admin4"><groups><run><include name="admin4"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+    <test name="admin5"><groups><run><include name="admin5"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+    <test name="admin6"><groups><run><include name="admin6"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="admin7"><groups><run><include name="admin7"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="admin8"><groups><run><include name="admin8"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="admin9"><groups><run><include name="admin9"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+   <test name="admin_privatbank"><groups><run><include name="admin_privatbank"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+   <test name="atm_issue_superuser"><groups><run><include name="atm_issue_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+   <test name="atm_activity_superuser2"><groups><run><include name="atm_activity_superuser2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_activity_superuser3"><groups><run><include name="atm_activity_superuser3"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_activity_no_tasks_superuser"><groups><run><include name="atm_activity_no_tasks_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_activity_no_tasks_superuser2"><groups><run><include name="atm_activity_no_tasks_superuser2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_control_superuser"><groups><run><include name="atm_control_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_superuser"><groups><run><include name="atm_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_superuser"><groups><run><include name="irm_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_superuser2"><groups><run><include name="irm_superuser2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_superuser3"><groups><run><include name="irm_superuser3"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="ltm_superuser4"><groups><run><include name="ltm_superuser4"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="ltm_superuser5"><groups><run><include name="ltm_superuser5"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="ltm_superuser6"><groups><run><include name="ltm_superuser6"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_superuser2"><groups><run><include name="sam_superuser2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_superuser3"><groups><run><include name="sam_superuser3"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_superuser4"><groups><run><include name="sam_superuser4"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_superuser5"><groups><run><include name="sam_superuser5"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+   <test name="sam_ans_confirm"><groups><run><include name="sam_ans_confirm"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+     <test name="qtm_superuser"><groups><run><include name="qtm_superuser"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="qtm_superuser2"><groups><run><include name="qtm_superuser2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="qtm_superuser3"><groups><run><include name="qtm_superuser3"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+   <test name="gbl_basel_bl_tree_admin"><groups><run><include name="gbl_basel_bl_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_basel_event_type_tree_admin"><groups><run><include name="gbl_basel_event_type_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_cause_type_tree_admin"><groups><run><include name="gbl_cause_type_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_client_trees_admin"><groups><run><include name="gbl_client_trees_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_currencies_admin"><groups><run><include name="gbl_currencies_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_custom_reports_admin"><groups><run><include name="gbl_custom_reports_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>  
+    <test name="gbl_event_type_tree_admin"><groups><run><include name="gbl_event_type_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_effect_type_tree_admin"><groups><run><include name="gbl_effect_type_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_frequency_indicator_type_admin"><groups><run><include name="gbl_frequency_indicator_type_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_insurance_trees_admin"><groups><run><include name="gbl_insurance_trees_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_legal_entity_admin"><groups><run><include name="gbl_legal_entity_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+    <test name="gbl_location_tree_admin"><groups><run><include name="gbl_location_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+    <test name="gbl_log_view"><groups><run><include name="gbl_log_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+    <test name="gbl_product_group_process"><groups><run><include name="gbl_product_group_process"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+    <test name="gbl_report_org_unit_tree_admin"><groups><run><include name="gbl_report_org_unit_tree_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="gbl_severity_indicator_type_admin"><groups><run><include name="gbl_severity_indicator_type_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>    
+    <test name="atm_activity_view_unused_org_unit"><groups><run><include name="atm_activity_view_unused_org_unit"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+     <test name="atm_activity_no_tasks_view"><groups><run><include name="atm_activity_no_tasks_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_control_view"><groups><run><include name="atm_control_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_control_task_admin"><groups><run><include name="atm_control_task_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test> 
+   <test name="atm_issue_view"><groups><run><include name="atm_issue_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="atm_issue_task_admin"><groups><run><include name="atm_issue_task_admin"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="birt_report_user_1"><groups><run><include name="birt_report_user_1"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="birt_report_user_2"><groups><run><include name="birt_report_user_2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_any_field_scenario"><groups><run><include name="irm_any_field_scenario"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_field_scenario1"><groups><run><include name="irm_field_scenario1"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_field_scenario2"><groups><run><include name="irm_field_scenario2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>    <test name="irm_indicator_view" parallel="tests" thread-count="1"><groups><run><include name="irm_indicator_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="irm_bvd_view"><groups><run><include name="irm_bvd_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+     <test name="ltm_field_and_event_type_restriction"><groups><run><include name="ltm_field_and_event_type_restriction"/></run></groups><packages><package name="reg_tests.*"/></packages></test>   
+    <test name="my_settings_user"><groups><run><include name="my_settings_user"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="my_settings_language"><groups><run><include name="my_settings_language"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="my_settings_password"><groups><run><include name="my_settings_password"/></run></groups><packages><package name="reg_tests.*"/></packages></test>   
+    <test name="restricted_access"><groups><run><include name="restricted_access"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="restricted_access2" ><groups><run><include name="restricted_access2"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_User_for_confirmation_right"><groups><run><include name="sam_User_for_confirmation_right"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_ans_view" ><groups><run><include name="sam_ans_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>   
+    <test name="sam_qlib_edit"><groups><run><include name="sam_qlib_edit"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="sam_qa_edit"><groups><run><include name="sam_qa_edit"/></run></groups><packages><package name="reg_tests.*"/></packages></test>   
+    <test name="qtm_view"><groups><run><include name="qtm_view"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+    <test name="ltm_no_admin_rights"><groups><run><include name="ltm_no_admin_rights"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+     <test name="Sam_withno_access_createasses"><groups><run><include name="Sam_withno_access_createasses"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+      <test name="admin10"><groups><run><include name="admin10"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+      <test name="admin11"><groups><run><include name="admin11"/></run></groups><packages><package name="reg_tests.*"/></packages></test>
+</suite>

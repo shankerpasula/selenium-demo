@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+    <test name="test">
+        <parameter name="myBrowser" value="firefox"/>
+        <classes>
+            <class name="myPackage.TestParallel" />
+            <class name="myPackage.TestParallel" />
+        </classes>
+    </test>
+    <test name="test">
+        <parameter name="myBrowser" value="chrome"/>
+        <classes>
+            <class name="myPackage.TestParallel" />
+            <class name="myPackage.TestParallel" />
+        </classes>
+    </test>
+ 
+</suite>
